@@ -1,8 +1,8 @@
 import { createClient } from '@supabase/supabase-js';
 
 // ⚠️ IMPORTANT: Put your REAL Supabase URL and Service Role Key here
-const SUPABASE_URL = 'YOUR_SUPABASE_URL';
-const SUPABASE_KEY = 'YOUR_SUPABASE_SERVICE_ROLE_KEY'; // Use Service Role key to bypass RLS policies
+const SUPABASE_URL = 'https://anodayscpvhbvsbxecmf.supabase.co';
+const SUPABASE_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFub2RheXNjcHZoYnZzYnhlY21mIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODA4ODExNjMsImV4cCI6MjA5NjQ1NzE2M30.rzmZ8AEW0Vwj4KZF2xhRuxe1lEMRHBfiSm77hvutNNk'; // Use Service Role key to bypass RLS policies
 const supabase = createClient(SUPABASE_URL, SUPABASE_KEY);
 
 const BOT_TOKEN = '8835569211:AAG_-b0Z08Jf8IKFAf6npU-0vfqlqWaPBmc';
